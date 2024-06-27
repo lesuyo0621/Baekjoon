@@ -21,7 +21,7 @@ public class B_1967 {
     private static int maxLengthNode = 0;
 
     private static void bfs(int root) {
-        Queue<Node> q = new LinkedList();
+        Queue<Node> q = new LinkedList<>();
         q.add(new Node(root, 0));
         visited[root] = true;
 
